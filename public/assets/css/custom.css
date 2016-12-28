@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400|Montserrat');
+#Title {
+    font-size: 6.5vmax;
+    /* margin-bottom: 30px; */
+    /* padding-top: 4%; */
+    /* padding-bottom: 4%; */
+    font-weight: 300;
+    position: relative;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    display: inline;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-left: 11%;
+}
+
+body {
+    height: 100vmax;
+}
+
+#centered {
+    position: absolute;
+    top: 35%;
+    width: 100vw;
+}
+
+#wrapper1 {
+    height: 100%;
+    background-image: url("../../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#grey {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    opacity: 0.95;
+    -webkit-transition: 1.3s ease-in-out 0.01s;
+    -o-transition: 1.3s ease-in-out 0.01s;
+    transition: 1.3s ease-in-out 0.01s;
+}
+
+.facebook {
+    margin-left: 11%;
+    margin-top: 42%;
+    opacity: 0;
+}
+
+.new {
+    margin-left: 11%;
+    margin-top: 6%;
+    opacity: 0;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s 3;
+    -moz-animation: blink 0.7s 3;
+    animation: blink 0.7s 3;
+    font-size: 7.5vmax;
+    animation-fill-mode: forwards;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#Title:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    height: 1px;
+    width: 0;
+    top: 0;
+    /* or 100px */
+    border-top: 3px solid white;
+    -webkit-transition: 1.3s ease-in-out 0.01s;
+    -o-transition: 1.3s ease-in-out 0.01s;
+    transition: 1.3s ease-in-out 0.01s;
+}
+
+#Title:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    /* or 100px */
+    border-bottom: 3px solid white;
+    -webkit-transition: 1s ease-in-out 0.01s;
+    -o-transition: 1s ease-in-out 0.01s;
+    transition: 1s ease-in-out 0.01s;
+}
+
+#Title.changed:after {
+    width: 100%;
+}
+
+#Title.changed:before {
+    width: 100%;
+}
+
+a,
+u {
+    text-decoration: none !important;
+    border-bottom: 0;
+}
+
+.snow {
+    background-image: url(../../images/snow.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.25;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+}
+
+.fa-cloud {
+    position: absolute;
+    top: -20%;
+    font-size: 38px;
+}
+
+.pic1 {
+    background-image: url(../../images/coffee.jpg) !important;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic2 {
+    background-image: url(../../images/group.jpg) !important;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic3 {
+    background-image: url(../../images/discover.jpg) !important;
+    background-size: cover;
+    background-position: center;
+}
+
+#centered1,
+#centered2,
+#centered3 {
+    margin-left: 17%;
+    text-align: center !important;
+    opacity: 0;
+}
+
+.list {
+    position: absolute;
+    right: 10px;
+    z-index: 2;
+    font-size: 20px;
+    padding-top: 25px;
+    width: 29.87px;
+    opacity: 0;
+    background-image: url(../../images/next.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Map {
+    position: absolute;
+    left: 10px;
+    z-index: 2;
+    font-size: 20px;
+    width: 29.87px;
+    padding-top: 25px;
+    opacity: 0;
+    background-image: url(../../images/back.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.places {
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.location {
+    height: 18%;
+    width: 90%;
+    position: relative;
+    top: 2%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    line-height: 1;
+    padding-left: 3%;
+    padding-top: 6%;
+}
+
+#one1 {
+    background-image: url("../../images/starbucks.jpg");
+    background-size: cover;
+    background-position: 20% 100%;
+}
+
+#two {
+    background-image: url("../../images/centralperk.jpg");
+    background-size: cover;
+    background-position: 20% 100%;
+}
+
+#three {
+    background-image: url("../../images/quantum.jpg");
+    background-size: cover;
+    background-position: 20% 60%;
+}
+
+#four {
+    background-image: url("../../images/farenheit.jpeg");
+    background-size: cover;
+    background-position: 20% 60%;
+}
+
+#five {
+    background-image: url("../../images/toronto.jpg");
+    background-size: cover;
+    background-position: 20% 60%;
+}
+
+#six {
+    background-image: url("../../images/gerstein.jpeg");
+    background-size: cover;
+    background-position: 20% 60%;
+}
+
+#seven {
+    background-image: url("../../images/robarts.jpg");
+    background-size: cover;
+    background-position: 20% 60%;
+}
+
+.location {
+    opacity: 0;
+}
+
+h2 {
+    margin: 0 0 0.1em 0;
+}
+
+.volume {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 3%;
+    top: 30%;
+}
+
+#loud {
+    background-image: url("../../images/loud.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#medium {
+    background-image: url("../../images/medium.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#quiet {
+    background-image: url("../../images/quiet.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#bob {
+    margin-top: 12%;
+    margin-left: 5%;
+    padding-bottom: 0%;
+    margin-bottom: 0;
+    border-bottom: 1px solid;
+    width: 90%;
+    opacity: 0;
+}
+
+#bob1 {
+    margin-top: 12%;
+    margin-left: 5%;
+    padding-bottom: 0%;
+    margin-bottom: 0;
+    border-bottom: 1px solid;
+    width: 90%;
+    opacity: 0;
+}
+
+.prev {
+    background-image: url(../../images/back.svg);
+    opacity: 0;
+    height: 25px;
+    margin-top: 13px;
+    position: relative;
+    right: 34%;
+}
+
+.inner {
+    height: 100%;
+}
+
+.blockchain1 {
+    background-image: url("../../images/f1.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.blockchain2 {
+    background-image: url("../../images/f2.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.blockchain3 {
+    background-image: url("../../images/f3.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.info {
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+maps {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+    position: fixed !important;
+    overflow: hidden;
+    z-index: 3;
+    left: -100%;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    top: 0;
+}
