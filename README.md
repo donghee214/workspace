@@ -1,6 +1,6 @@
 # Workspace
 
-A hackathon app (3rd place) that aimed of help users find available study spaces by providing additional information (wireless availability, seating, noise levels, etc)
+A hackathon app (3rd place) that aimed on helping users find available study spaces by providing additional information (wireless availability, seating, noise levels, etc)
 
 ## Run the app locally
 
