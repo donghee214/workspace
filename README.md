@@ -1,6 +1,6 @@
-# Node.js Starter Overview
+# Workspace
 
-The Node.js Starter demonstrates a simple, reusable Node.js web application based on the Express framework.
+A hackathon app (3rd place) that aimed of help users find available study spaces by providing additional information (wireless availability, seating, noise levels, etc)
 
 ## Run the app locally
 
