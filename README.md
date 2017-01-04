@@ -2,6 +2,8 @@
 
 A hackathon app (3rd place) that aimed on helping users find available study spaces by providing additional information (wireless availability, seating, noise levels, etc)
 
+Demo video is available here: https://www.youtube.com/watch?v=KhOS9_z7DwA&feature=youtu.be 
+
 ## Run the app locally
 
 1. [Install Node.js][]
